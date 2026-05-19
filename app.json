@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "deysa-house-app",
+    "name": "DeysaHouse",
     "slug": "deysa-house-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -37,6 +37,13 @@
           "dark": {
             "backgroundColor": "#000000"
           }
+        }
+      ],
+      [
+        "with-rn-bluetooth-classic",
+        {
+          "alwaysUsageDescription": "La app necesita Bluetooth para configurar tu casa inteligente.",
+          "peripheralUsageDescription": "La app necesita Bluetooth para detectar el dispositivo Deysa-House."
         }
       ]
     ],
